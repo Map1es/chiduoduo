@@ -1,0 +1,10 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  //  #去掉代码结尾的分号
+  "prettier.semi": false,
+  //  #使用带引号替代双引号
+  "prettier.singleQuote": true
+}
