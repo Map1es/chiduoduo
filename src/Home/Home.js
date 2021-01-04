@@ -1,6 +1,6 @@
 import { Layout } from 'antd'
 import 'antd/dist/antd.css'
-import './Home.css'
+import './Home.scss'
 import React from 'react'
 import Sider from './components/Sider'
 import User from '../User/user'

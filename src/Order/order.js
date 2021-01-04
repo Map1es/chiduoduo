@@ -1,7 +1,10 @@
 import React from 'react'
-class Order extends React.Component {
-  render() {
-    return <span>22</span>
-  }
+import './order.scss'
+function Order() {
+  return (
+    <div className="order">
+      <span>12312312</span>
+    </div>
+  )
 }
 export default Order
