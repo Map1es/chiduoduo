@@ -1,7 +1,29 @@
 .order {
   padding: 20px 0;
   width: 100%;
-  span {
-    color: brown;
+  .header{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    .header-item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-size: 16px;
+      width: 25%;
+      span+span{
+        margin-top: 10px;
+        font-size: 32px;
+        color: #dd5353;
+        font-weight: bold;
+      }
+    }
+  }
+  .table{
+    margin-top: 30px;
   }
 }

@@ -17,7 +17,7 @@ function MySider() {
 
   return (
     <Sider collapsible>
-      <div className="logo" />
+      <div className="logo">CHI</div>
       <Menu
         theme="dark"
         defaultSelectedKeys={['/']}
